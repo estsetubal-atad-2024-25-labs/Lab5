@@ -86,7 +86,7 @@ Consulte o README se tiver dúvidas sobre a sua utilização.
 
 9. Complete o seguinte pseudo-código de acordo com a descrição anterior:
 
-    ```markdown
+    ```console
     Algorithm binarySearch
         input: val - integer
             arr - array of integers
@@ -155,7 +155,7 @@ O algoritmo [*quicksort*](https://en.wikipedia.org/wiki/Quicksort) é um algorit
 
 A sua formalização em pseudo-código é apresentada de seguida:
 
-```markdown
+```console
 Algorithm quickSort
     input: arr - array of integers
            low - starting index for sorting - natural number
