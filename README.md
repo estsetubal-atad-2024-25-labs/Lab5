@@ -114,8 +114,8 @@ Consulte o README se tiver dúvidas sobre a sua utilização.
 11. Adicione ao módulo `arrays` a função:
 
     ```cpp
-    int arrBinarySearch(int *arr, int arrLength) {
-        return binarySearch(arr, 0, arrLength - 1);
+    int arrBinarySearch(int *arr, int arrLength, int val) {
+        return binarySearch(arr, 0, arrLength - 1,val);
     }
     ```
 
